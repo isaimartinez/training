@@ -1,0 +1,1 @@
+export {default as Patio} from './Patio'

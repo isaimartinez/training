@@ -1,0 +1,79 @@
+========Syncfusion======
+
+
+npm install @syncfusion/ej2-react-grids --save
+npm install @syncfusion/ej2-react-popups --save
+
+npm install @syncfusion/ej2-react-charts --save
+npm install @syncfusion/ej2-react-dropdowns --save
+npm install @syncfusion/ej2-react-grids --save
+npm install @syncfusion/ej2-react-inputs --save
+npm install @syncfusion/ej2-react-kanban --save
+npm install @syncfusion/ej2-react-popups --save
+npm install @syncfusion/ej2-react-richtexteditor --save
+npm install @syncfusion/ej2-react-schedule --save
+npm install @syncfusion/ej2-react-splitbuttons --save
+
+add to App.css
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+.sidebar {
+  box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+}
+.nav-item,
+.navbar {
+  z-index: 10000;
+}
+@media  screen and (max-width:800px) {
+  .sidebar{
+    z-index: 10000000;
+  }
+}
+
+.e-dlg-center-center, .e-quick-popup-wrapper.e-device{
+  z-index: 1000000 !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(216, 216, 216);
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+ORg4AjUWIQA/Gnt2VVhhQlFacF5JXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxRdkNhXn1dcXFXTmZZVEY=
+
+========Tailwind======
+https://tailwindcss.com/docs/guides/create-react-app
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+
+
+npm install react-icons --save
+npm install react-router-dom --save
+
+npm i react-modal
+
+npm install semantic-ui-react semantic-ui-css
+
+// PDF
+
+npm install html2canvas --save 
+npm install jspdf --save
+
+// CSV
+npm install react-csv --save
+
+// TOAST
+
+npm i react-toastify
+
+
+mongoose
+imv
+prnEcX7nE2zqNqjT
