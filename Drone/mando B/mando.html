@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>  
+<head>    
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8\"/>    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <style type="text/css">
+        #left-cross, #right-cross {  
+            border: solid black 1px;  
+            position: absolute;  
+            bottom: 30px;  
+            left: 10px; }
+        #right-cross {  
+            right: 10px;  
+            left: initial; 
+        }
+        #switch-arming {  
+            width: 40px;  
+            height: 40px;  
+            position: absolute;  
+            left: calc(50% - 20px); }
+        #status-indicator {  width: 40px;  height: 40px;  background-color: red;  border-radius: 50%;  position: absolute;  left: calc(50% - 20px);  bottom: 100px; }</style>
+</head>  
+<body>    
+<input type="checkbox" id="switch-arming">    <div id="status-indicator"></div>  
+
+<script src="mando.js"></script>
+</body></html>

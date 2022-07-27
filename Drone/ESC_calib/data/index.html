@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drone Motors DASHBOARD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="topnav">
+        <h1>Motors</h1>
+    </div>
+    <div class="content">
+        <div class="card-grid">
+            <div class="card">
+                <p class="card-title">TL</p>
+                <p class="switch">
+                    <input type="range" onchange="updatePWM(this)" id="slidertl" min="0" max="100" step="1" value ="0" class="slider">
+                </p>
+                <p class="state">Power: <span id="tl">0</span> &percnt;</p>
+            </div>
+            <div class="card">
+                <p class="card-title">TR</p>
+                <p class="switch">
+                    <input type="range" onchange="updatePWM(this)" id="slidertr" min="0" max="100" step="1" value ="0" class="slider">
+                </p>
+                <p class="state">Power: <span id="tr">0</span> &percnt;</p>
+            </div>
+            <div class="card">
+                <p class="card-title">BL</p>
+                <p class="switch">
+                    <input type="range" onchange="updatePWM(this)" id="sliderbl" min="0" max="100" step="1" value ="0" class="slider">
+                </p>
+                <p class="state">Power: <span id="bl">0</span> &percnt;</p>
+            </div>
+            <div class="card">
+                <p class="card-title">BR</p>
+                <p class="switch">
+                    <input type="range" onchange="updatePWM(this)" id="sliderbr" min="0" max="100" step="1" value ="0" class="slider">
+                </p>
+                <p class="state">Power: <span id="br">0</span> &percnt;</p>
+            </div>
+        </div>
+        <div class="manual">
+            <div class="card">
+                <p class="card-title">All</p>
+                <p class="switch">
+                    <input type="range" onchange="updateAllPWM(this)" id="sliderAll" min="0" max="100" step="1" value ="0" class="slider">
+                </p>
+                <p class="state">Power: <span id="all">0</span> &percnt;</p>
+            </div>
+        </div>
+        <div id="isConnected">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

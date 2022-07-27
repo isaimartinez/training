@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Joy</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Javascript JoyStick V 0.0.1">
+		<meta name="author" content="Isai Mtz">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+		<script src="joy.js"></script>
+	</head>
+	
+	<body>
+		
+		<!-- ============== TURN ON/OFF ============== -->
+		<!-- <div class="Switch">
+			<p>Turn On/Off</p>
+		</div>
+	 -->
+		<!-- ============== JOYSTICKS ============== -->
+		<div class="Row Palancas">
+			
+			<div class="Column Left">
+				<div id="joyLDiv" style="width:200px;height:200px;margin:50px;"></div>
+					Yaw(rud) :<input id="RUD" type="text" /></br>
+					Throttle :<input id="THR" type="text" />
+			</div>
+			<!-- <div class="Column Middle">
+			</div> -->
+			<div class="Column Right">
+				<div id="joyRDiv" style="width:200px;height:200px;margin:50px;"></div>
+					Roll :<input id="ROL" type="text" /></br>
+					Pitch :<input id="PIT" type="text" />
+			</div>
+		</div>
+		<div style="position: absolute; top: 50px; right: 40%; width: 20%;">
+			<!-- Rounded switch -->
+			<label class="switch">
+				<input type="checkbox" id="myCheck" onclick="onCheckBox()">
+				<span class="slider round"></span>
+			</label>
+			<p>Armed: <span id="isArmed">False</span></p>
+		</div>
+
+        <div id="isConnected">
+
+        </div>
+		
+
+        <div style="position: absolute; top: 200px; right: 40%; width: 20%;">
+            <button onclick="reset()">
+                RESET
+            </button>
+        </div>
+	
+	
+	
+	
+	<script src="script.js"></script>
+	
+	<script type="text/javascript">
+	</script>
+	</body>
+</html>
