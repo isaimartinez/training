@@ -1,0 +1,15 @@
+mix phx.new counter --no-ecto --no-gettext --no-mailer --no-dashboard
+
+iex -S mix phx.server
+
+//Install package (TAILWIND)
+hex.pm
+{:tailwind, "~> 0.1.8"} // add to mix.exs
+mix tailwind.install
+
+//install deps
+mix deps.get
+
+
+// run test
+mix test test/counter_web/live

@@ -1,0 +1,13 @@
+mix phx.new --live --no-ecto chat
+
+//Start server
+iex -S mix phx.server
+
+
+// fetch new packages
+mix deps.get
+
+mix phx.gen.live
+
+
+MnemonicSlugs.generate_slug(3)  

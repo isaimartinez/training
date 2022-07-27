@@ -1,0 +1,36 @@
+https://www.youtube.com/watch?v=sJMPLoqIS7M&ab_channel=Elixirprogrammer
+
+
+mix phx.new form_validator --no-dashboard
+
+iex -S mix phx.server
+
+//Install package (TAILWIND)
+hex.pm
+{:tailwind, "~> 0.1.8"} // add to mix.exs
+mix tailwind.install
+
+//install deps
+mix deps.get
+//si no funciona
+mix local.hex
+
+
+// run test
+mix test test/counter_web/live
+
+
+Postgrex.protocol failed to connect
+
+brew services stop postgresql
+brew services start postgresql
+
+createdb 'samuel' 
+psql
+
+CREATE DATABASE form_validator_dev WITH OWNER samuel;
+exit
+
+
+mix phx.gen.context Accounts User users email:string username:string password:string
+mix ecto.migrate
