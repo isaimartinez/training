@@ -1,0 +1,11 @@
+npm i @material-ui/core
+npm i @material-ui/icons
+npm i @material-ui/lab
+npm i @react-google-maps/api
+npm i axios
+npm i google-map-react
+
+npm config set legacy-peer-deps true
+
+
+https://www.youtube.com/watch?v=GDa8kZLNhJ4
