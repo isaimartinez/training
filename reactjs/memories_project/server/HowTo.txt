@@ -1,0 +1,23 @@
+npm init -y
+
+npm i body-parser
+npm i cors
+npm i express
+npm i mongoose
+npm i nodemon
+npm i dotenv
+npm i bcrypt
+npm i jsonwebtoken
+
+isai
+aRs90dqyxqnXBUKL
+
+https://dashboard.heroku.com/apps/imv-memories-app/deploy/heroku-git
+git commit -am "make it better"h
+git push heroku master
+
+// real time logs
+heroku logs --tail
+
+origin	https://github.com/isaimartinez/training.git
+git remote set-url origin https://github.com/isaimartinez/training.git
