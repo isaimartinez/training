@@ -1,0 +1,3 @@
+sanity start
+
+npm run dev
